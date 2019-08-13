@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Up
+Comment=
+Exec=xdotool key Page_Up
+Icon=go-up
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Down
+Comment=
+Exec=xdotool key Page_Down
+Icon=go-down
+Path=
+Terminal=false
+StartupNotify=false

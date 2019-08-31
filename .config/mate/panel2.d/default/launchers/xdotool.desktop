@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/usr/share/icons/ContrastHigh/scalable/actions/go-down.svg
+Icon[de_DE]=/usr/share/icons/ContrastHigh/scalable/actions/go-down.svg
+Name[de_DE]=Down
+Exec=xdotool key Page_Down
+Name=Down

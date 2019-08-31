@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=onboard
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[de_DE]=onboard
+Name=onboard
+Comment[de_DE]=
+Comment=
+X-MATE-Autostart-Delay=0

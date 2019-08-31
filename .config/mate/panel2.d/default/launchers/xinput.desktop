@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=mate-mousekeys-pressed-right
+Icon[de_DE]=mate-mousekeys-pressed-right
+Name[de_DE]=Right Click
+Exec=sh -c "xinput --set-button-map 7 3 2 3 && sleep 2 && xinput --set-button-map 7 1 2 3 && notify-send \\"Right click timeout\\" "
+Name=Right Click

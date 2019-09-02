@@ -71,7 +71,7 @@ cursor-theme='mate-black'
 drag-threshold=10
 
 [desktop/session]
-session-start=1567240142
+session-start=1567413093
 
 [desktop/session/required-components]
 windowmanager='marco-no-composite'
@@ -81,6 +81,7 @@ active-chart='rings'
 
 [marco/general]
 button-layout='menu:minimize,maximize,close'
+compositing-manager=false
 num-workspaces=1
 theme='HighContrast'
 titlebar-font='Sans Bold 12'
@@ -194,7 +195,7 @@ position=410
 toplevel-id='top'
 
 [panel/objects/object-7/prefs]
-command='getBat.sh'
+command='sh /home/alpine/.local/bin/getBat.sh'
 interval=3
 
 [panel/objects/volume-control]

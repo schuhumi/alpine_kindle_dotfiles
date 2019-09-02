@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xinput --set-button-map 7 1 2 0 0 0 0 0 0 0 0
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[de_DE]=disable kindle gestures
+Name=disable kinde gestures
+Comment[de_DE]=
+Comment=
+X-MATE-Autostart-Delay=0

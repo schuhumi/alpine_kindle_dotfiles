@@ -7,5 +7,5 @@ Terminal=false
 Icon=mate-mousekeys-pressed-right
 Icon[de_DE]=mate-mousekeys-pressed-right
 Name[de_DE]=Right Click
-Exec=sh -c "xinput --set-button-map 7 3 2 0 0 0 0 0 0 0 0 && sleep 2 && xinput --set-button-map 7 1 2 0 0 0 0 0 0 0 0 && notify-send \\"Right click timeout\\" "
+Exec=sh -c "xinput --set-button-map \"Xephyr virtual mouse\" 3 2 0 0 0 0 0 0 0 0 && sleep 2 && xinput --set-button-map \"Xephyr virtual mouse\" 1 2 0 0 0 0 0 0 0 0 && notify-send \\"Right click timeout\\" "
 Name=Right Click

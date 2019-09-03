@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=xinput --set-button-map 7 1 2 0 0 0 0 0 0 0 0
+Exec=xinput --set-button-map "Xephyr virtual mouse" 1 2 0 0 0 0 0 0 0 0
 Hidden=false
 X-MATE-Autostart-enabled=true
 Name[de_DE]=disable kindle gestures

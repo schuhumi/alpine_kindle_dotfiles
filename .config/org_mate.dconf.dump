@@ -71,7 +71,7 @@ cursor-theme='mate-black'
 drag-threshold=10
 
 [desktop/session]
-session-start=1567413093
+session-start=1567459013
 
 [desktop/session/required-components]
 windowmanager='marco-no-composite'
@@ -195,8 +195,8 @@ position=410
 toplevel-id='top'
 
 [panel/objects/object-7/prefs]
-command='sh /home/alpine/.local/bin/getBat.sh'
-interval=3
+command='bash /home/alpine/.local/bin/getBat.sh'
+interval=10
 
 [panel/objects/volume-control]
 applet-iid='GvcAppletFactory::GvcApplet'
@@ -224,7 +224,7 @@ y=688
 y-bottom=0
 
 [pluma]
-active-plugins=['spell', 'modelines', 'docinfo', 'time', 'filebrowser']
+active-plugins=['modelines', 'spell', 'time', 'filebrowser', 'docinfo']
 statusbar-visible=true
 
 [screensaver]
@@ -241,7 +241,7 @@ include-pointer=true
 [system-monitor]
 current-tab=2
 maximized=false
-window-state=(700, 499, 34, 58)
+window-state=(700, 466, -179, 112)
 
 [system-monitor/disktreenew]
 col-6-width=300

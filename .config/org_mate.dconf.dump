@@ -54,6 +54,7 @@ dpi=83.5
 hinting='slight'
 
 [desktop/interface]
+accessibility=true
 document-font-name='Sans 12'
 enable-animations=false
 font-name='Sans 11'
@@ -71,6 +72,7 @@ cursor-theme='mate-black'
 drag-threshold=10
 
 [desktop/session]
+idle-delay=15
 session-start=1567459013
 
 [desktop/session/required-components]
@@ -228,7 +230,9 @@ active-plugins=['modelines', 'spell', 'time', 'filebrowser', 'docinfo']
 statusbar-visible=true
 
 [screensaver]
-lock-enabled=false
+embedded-keyboard-command='onboard --xid'
+embedded-keyboard-enabled=true
+lock-enabled=true
 mode='blank-only'
 themes=@as []
 
